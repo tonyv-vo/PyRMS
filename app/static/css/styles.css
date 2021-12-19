@@ -1,0 +1,170 @@
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  /* box-shadow: none; */
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  /* Margin bottom by footer height */
+  /* margin-bottom: 60px; */
+  width: 100vw;
+}
+
+/* html, body {
+  margin: 0px;
+} */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+#index-bg {
+  background-image: url("../img/restaurant.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  height: 100vh;
+  left: 50%;
+  margin-top: -2vh;
+}
+
+.jumbotron {
+  background: rgba(236, 236, 236, 0.75);
+  width: 70%;
+  margin: auto;
+}
+
+.invisiblehr {
+  clear: both;
+  visibility: hidden;
+  height: 3vh;
+}
+
+/* Carousel code taken from https://www.codeply.com/go/zjZsn1ly29 */
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* large - display 6 */
+@media (min-width: 992px) {
+  
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(50%);
+  }
+  
+  .carousel-inner .carousel-item-left.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-50%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+.movie-img {
+  height:200px;
+  width: 150px;
+  background-color:  aqua;
+  overflow: hidden;
+  background-image: url("https://i.hizliresim.com/mX07R4.png");
+  background-repeat:no-repeat;
+  background-size: cover;
+  object-fit: fill;
+}
+
+.movie-title {
+  height: 40px; 
+  width:150px;
+  background-color: black;
+  overflow: hidden;
+}
+
+.invisible-bullets {
+  list-style: none;
+}
+
+.left-justify {
+  text-align: left;
+}
+
+hr {
+  border: 1px solid black;
+  width: 70%;
+}
+
+/*  */
